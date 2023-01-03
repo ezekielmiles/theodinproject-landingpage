@@ -1,0 +1,207 @@
+body {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+ul {
+  color :black;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: arial;
+  font-size: 12px;
+}
+
+.top-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.header-signup {
+  font-family: arial;
+  font-size: 12px;
+}
+
+.header-logo {
+  width: 150px;
+  padding: 10px 0px;
+}
+
+.header-button {
+  background-color: #0066c5;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #81bef6;
+  border-width: 0.2px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 500;
+  height: 25px;
+  line-height: 0px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 200ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.header-button:hover,
+.header-button:focus {
+  transition: color 200ms;
+  background-color: #0058ab;
+}
+
+.hero-button {
+  background-color: #0066c5;
+  border-radius: 8px;
+  border-style: stroke;
+  border-color: #81bef6;
+  border-width: 3px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 00;
+  height: 25px;
+  line-height: 0px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 200ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 40px;
+  width: 180px;
+}
+
+.two-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-container {
+  display: flex;
+  flex: 1;
+  width: fixed;
+  height: 400px;
+  background: linear-gradient(rgba(45, 45, 45, 0.3), rgba(73, 73, 73, 0.3)), url(https://footyaddicts.com/bundles/media/images/background-9b4c1f6fb2aed9d5c274382df46103e5.jpg);
+  background-position: 0% 35%;
+  padding-left: 50px;
+  background-size: 1300px;
+  background-repeat: no-repeat;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-bottom: 0px;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  padding-left: 50px;
+  width: 400px;
+  font-family: arial;
+}
+
+.header-pic {
+  width: 380px;
+  padding-left: 90px;
+}
+
+.header-plus-top {
+  background-color: rgb(255, 255, 255);
+}
+
+.middle-title {
+  font-family: arial;
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.middle-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1000px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.middle-image {
+  border-style: stroke;
+  border: 2px solid green;
+  max-width: 290px;
+  height: 200px;
+  width: 700px;
+}
+
+.middle-image.one {
+  background-image: url(images/pexels-omar-ramadan-9468614.jpeg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: 20% 55%;
+}
+
+.middle-image.two {
+  background-image: url(images/pexels-alexander-nadrilyanski-3684122.jpeg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: 0% 35%;
+}
+
+.middle-image.three {
+  background-image: url(images/istockphoto-468376510-612x612.jpeg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+}
+
+.middle-text {
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: arial;
+  text-align: center;
+}
